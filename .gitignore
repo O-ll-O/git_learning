@@ -1,6 +1,7 @@
 #¹Ù·½ºöÂÔ
 # Compiled class file
-*.class
+.class
+bin/
 
 # Log file
 *.log

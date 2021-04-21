@@ -1,2 +1,2 @@
-# git_learning
-study github
+# Algorithm 
+Study algorithm and data structure

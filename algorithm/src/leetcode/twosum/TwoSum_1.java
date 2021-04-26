@@ -1,6 +1,6 @@
 package leetcode.twosum;
 
-public class TwoSum {
+public class TwoSum_1 {
 	// 时间复杂度为o(n2)
 	public int[] twoSum(int[] nums, int target) {
 		int[] arr = new int[2];

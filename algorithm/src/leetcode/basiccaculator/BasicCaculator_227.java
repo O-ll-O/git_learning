@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class BasicCaculator_227 {
 	public static void main(String[] args) {
-		String s = "3+2*2";
+		String s = "32+10*100";
 		System.out.print(calculate(s));
 	}
 

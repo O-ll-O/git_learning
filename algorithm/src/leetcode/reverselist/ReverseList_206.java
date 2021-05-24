@@ -16,4 +16,15 @@ public class ReverseList_206 {
 		return pre;// 当cur为空时，返回pre
 
 	}
+
+	public ListNode reverseList2(ListNode head) {
+		if (head == null || head.next == null) {
+			return head;
+		}
+		ListNode newHead = reverseList(head.next);// 将链表分为head和head.next两部分，子链表也分解成这样
+		head.next.next = head;
+		head.next = null;
+		return newHead;// 返回翻转后的子链
+	}
+
 }
